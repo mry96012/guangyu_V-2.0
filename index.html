@@ -15,26 +15,29 @@
   <!-- ========== 導覽列 ========== -->
   <header class="nav" id="nav">
     <div class="nav__inner">
-      <a href="#" class="nav__brand">
+      <a href="#hero" class="nav__brand">
         <img src="images/logo.png" alt="光宇方向命理研究所 Logo" class="nav__logo" />
         <span class="nav__name">光宇方向<span class="nav__name-sub">命理研究所</span></span>
       </a>
       <nav class="nav__links" aria-label="主選單">
+        <a href="#hero">首頁</a>
         <a href="#services">服務項目</a>
-        <a href="#why">為何選擇我們</a>
+        <a href="#pricing">服務價格</a>
         <a href="#process">預約流程</a>
-        <a href="#contact" class="nav__cta">立即預約</a>
+        <a href="#testimonials">客戶回饋</a>
+        <a href="#contact" class="nav__cta">預約諮詢</a>
       </nav>
       <button class="nav__hamburger" aria-label="開啟選單" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
     </div>
-    <!-- 手機版選單 -->
     <div class="nav__mobile" id="mobileMenu">
+      <a href="#hero" class="nav__mobile-link">首頁</a>
       <a href="#services" class="nav__mobile-link">服務項目</a>
-      <a href="#why" class="nav__mobile-link">為何選擇我們</a>
+      <a href="#pricing" class="nav__mobile-link">服務價格</a>
       <a href="#process" class="nav__mobile-link">預約流程</a>
-      <a href="#contact" class="nav__mobile-link nav__mobile-cta">立即預約</a>
+      <a href="#testimonials" class="nav__mobile-link">客戶回饋</a>
+      <a href="#contact" class="nav__mobile-link nav__mobile-cta">預約諮詢</a>
     </div>
   </header>
 
@@ -47,20 +50,63 @@
     <div class="hero__content">
       <p class="hero__eyebrow">東西方命理整合・專業顧問式陪伴</p>
       <h1 class="hero__headline">
-        看懂自己<span class="hero__dot">・</span>理解處境<span class="hero__dot">・</span>找到方向
+        看懂自己・理解處境<br />找到更適合自己的方向
       </h1>
       <p class="hero__desc">
-        透過八字、紫微斗數、塔羅、占星與生命靈數，<br class="hero__br" />
-        以清楚有結構的方式，協助你整理現在的狀態，釐清前進的方向。
+        透過八字、紫微斗數、姓名學、塔羅、生命靈數與西洋占星，<br class="hero__br" />
+        以清楚有結構的方式，協助你整理現在的狀態，<br class="hero__br" />
+        看見人生課題，找到更適合自己的下一步。
       </p>
       <div class="hero__actions">
-        <a href="#services" class="btn btn--gold">了解服務項目</a>
-        <a href="#contact" class="btn btn--outline">立即預約諮詢</a>
+        <a href="#contact" class="btn btn--gold">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.48 2 2 6.03 2 11c0 3.07 1.67 5.78 4.24 7.5L5.5 22l3.73-1.96C10.1 20.32 11.04 20.5 12 20.5c5.52 0 10-4.03 10-9S17.52 2 12 2z"/></svg>
+          立即預約諮詢
+        </a>
+        <a href="#services" class="btn btn--outline">了解服務項目</a>
       </div>
     </div>
-    <div class="hero__scroll" aria-hidden="true">
-      <span class="hero__scroll-line"></span>
+    <!-- 信任小卡 -->
+    <div class="hero__trust">
+      <div class="hero__trust-inner">
+        <div class="hero__trust-item">
+          <div class="hero__trust-icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#D4AF37" stroke-width="1.5" stroke-linecap="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <div>
+            <p class="hero__trust-title">專業顧問式服務</p>
+            <p class="hero__trust-desc">不是只看結果，而是協助你理解原因與方向。</p>
+          </div>
+        </div>
+        <div class="hero__trust-item">
+          <div class="hero__trust-icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#D4AF37" stroke-width="1.5" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+          </div>
+          <div>
+            <p class="hero__trust-title">多元命理整合</p>
+            <p class="hero__trust-desc">結合東方與西方工具，提供更立體的分析視角。</p>
+          </div>
+        </div>
+        <div class="hero__trust-item">
+          <div class="hero__trust-icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#D4AF37" stroke-width="1.5" stroke-linecap="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg>
+          </div>
+          <div>
+            <p class="hero__trust-title">隱私安全保障</p>
+            <p class="hero__trust-desc">個人資料僅用於分析與預約確認，不對外公開。</p>
+          </div>
+        </div>
+        <div class="hero__trust-item">
+          <div class="hero__trust-icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#D4AF37" stroke-width="1.5" stroke-linecap="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+          </div>
+          <div>
+            <p class="hero__trust-title">清楚書面報告</p>
+            <p class="hero__trust-desc">以分析、提醒與建議整理，方便日後回顧。</p>
+          </div>
+        </div>
+      </div>
     </div>
+    <div class="hero__scroll" aria-hidden="true"><span class="hero__scroll-line"></span></div>
   </section>
 
   <!-- ========== 服務分類卡片 ========== -->
@@ -71,18 +117,21 @@
         <h2 class="gy-services__title">我們的專業服務</h2>
         <p class="gy-services__subtitle">結合東西方命理智慧，協助你更理解自己，找到更適合的方向</p>
       </div>
-
       <div class="gy-services__grid">
 
-        <!-- 卡片 1：東方命理分析 -->
-        <article class="gy-service-card" aria-label="東方命理分析服務">
+        <!-- 卡片 1 -->
+        <article class="gy-service-card">
           <div class="gy-service-card__image-wrap">
-            <img src="images/service-east.webp" alt="東方命理分析——八字命盤、紫微斗數、姓名學、流年大運" class="gy-service-card__image" loading="lazy" />
+            <img src="images/service-east.webp" alt="東方命理分析" class="gy-service-card__image" loading="lazy" />
             <div class="gy-service-card__image-overlay"></div>
           </div>
           <div class="gy-service-card__body">
             <div class="gy-service-card__tag">東方命理</div>
             <h3 class="gy-service-card__title">東方命理分析</h3>
+            <p class="gy-service-card__desc">從命盤結構理解個人特質、人生課題與長期發展方向。</p>
+            <div class="gy-service-card__badges">
+              <span>結構理解</span><span>人生方向</span><span>流年提醒</span>
+            </div>
             <ul class="gy-service-card__list">
               <li>八字命盤分析</li>
               <li>紫微斗數分析</li>
@@ -92,15 +141,19 @@
           </div>
         </article>
 
-        <!-- 卡片 2：西方命理占卜 -->
-        <article class="gy-service-card" aria-label="西方命理占卜服務">
+        <!-- 卡片 2 -->
+        <article class="gy-service-card">
           <div class="gy-service-card__image-wrap">
-            <img src="images/service-west.webp" alt="西方命理占卜——塔羅占卜、生命靈數分析、西洋占星分析" class="gy-service-card__image" loading="lazy" />
+            <img src="images/service-west.webp" alt="西方命理占卜" class="gy-service-card__image" loading="lazy" />
             <div class="gy-service-card__image-overlay"></div>
           </div>
           <div class="gy-service-card__body">
             <div class="gy-service-card__tag">西方命理</div>
             <h3 class="gy-service-card__title">西方命理占卜</h3>
+            <p class="gy-service-card__desc">聚焦當下狀態、情緒需求與選擇方向，協助你看清眼前問題。</p>
+            <div class="gy-service-card__badges">
+              <span>狀態釐清</span><span>選擇建議</span><span>內在理解</span>
+            </div>
             <ul class="gy-service-card__list">
               <li>塔羅占卜</li>
               <li>生命靈數分析</li>
@@ -109,15 +162,19 @@
           </div>
         </article>
 
-        <!-- 卡片 3：主題式分析 -->
-        <article class="gy-service-card" aria-label="主題式命理分析服務">
+        <!-- 卡片 3 -->
+        <article class="gy-service-card">
           <div class="gy-service-card__image-wrap">
-            <img src="images/service-theme.webp" alt="主題式分析——事業、感情、財運、人際命理分析" class="gy-service-card__image" loading="lazy" />
+            <img src="images/service-theme.webp" alt="主題式分析" class="gy-service-card__image" loading="lazy" />
             <div class="gy-service-card__image-overlay"></div>
           </div>
           <div class="gy-service-card__body">
             <div class="gy-service-card__tag">主題式分析</div>
             <h3 class="gy-service-card__title">主題式分析</h3>
+            <p class="gy-service-card__desc">針對特定人生主題進行整理，協助你釐清卡住的關鍵。</p>
+            <div class="gy-service-card__badges">
+              <span>單一主題</span><span>深入解析</span><span>精準建議</span>
+            </div>
             <ul class="gy-service-card__list">
               <li>事業分析</li>
               <li>感情分析</li>
@@ -127,15 +184,19 @@
           </div>
         </article>
 
-        <!-- 卡片 4：整合型報告 -->
-        <article class="gy-service-card" aria-label="整合型命理報告服務">
+        <!-- 卡片 4 -->
+        <article class="gy-service-card">
           <div class="gy-service-card__image-wrap">
-            <img src="images/service-integrated.webp" alt="整合型報告——東西方交叉整合、單主題深度報告、雙主題整合報告、顧問式書面分析" class="gy-service-card__image" loading="lazy" />
+            <img src="images/service-integrated.webp" alt="整合型報告" class="gy-service-card__image" loading="lazy" />
             <div class="gy-service-card__image-overlay"></div>
           </div>
           <div class="gy-service-card__body">
             <div class="gy-service-card__tag">整合型報告</div>
             <h3 class="gy-service-card__title">整合型報告</h3>
+            <p class="gy-service-card__desc">結合多種命理工具交叉分析，提供更完整的生命藍圖與行動方向。</p>
+            <div class="gy-service-card__badges">
+              <span>多角度整合</span><span>全面理解</span><span>深度陪伴</span>
+            </div>
             <ul class="gy-service-card__list">
               <li>東西方交叉整合</li>
               <li>單主題深度報告</li>
@@ -146,52 +207,65 @@
         </article>
 
       </div>
-
       <p class="gy-services__footer-text">多元工具整合・專業分析解讀・陪伴你的每個人生階段</p>
     </div>
   </section>
 
-  <!-- ========== 價格區間 ========== -->
+  <!-- ========== 定價區（三層） ========== -->
   <section class="pricing" id="pricing">
     <div class="pricing__container">
       <div class="pricing__header">
         <p class="section-eyebrow">服務定價</p>
-        <h2 class="pricing__title">透明定價，依需求選擇</h2>
-        <p class="pricing__subtitle">所有服務均提供書面分析報告，讓你可以反覆閱讀、慢慢整理</p>
+        <h2 class="pricing__title">依需求選擇，找到最適合的起點</h2>
+        <p class="pricing__subtitle">服務推薦以需求匹配為主，不需要一開始就選最完整的方案</p>
       </div>
-      <div class="pricing__grid">
-        <div class="pricing__item">
-          <span class="pricing__name">八字命盤分析</span>
-          <span class="pricing__price">NT$1,200 起</span>
+      <div class="pricing__tiers">
+
+        <!-- 入門釐清 -->
+        <div class="pricing__tier">
+          <div class="pricing__tier-header">
+            <p class="pricing__tier-label">入門釐清</p>
+            <h3 class="pricing__tier-title">快速了解與方向確認</h3>
+            <p class="pricing__tier-for">適合：想快速了解單一問題、初次體驗服務的人。</p>
+          </div>
+          <ul class="pricing__tier-list">
+            <li><span class="pricing__item-name">塔羅占卜（單題）</span><span class="pricing__item-price">NT$350 起</span></li>
+            <li><span class="pricing__item-name">姓名學分析</span><span class="pricing__item-price">NT$600 起</span></li>
+            <li><span class="pricing__item-name">生命靈數分析</span><span class="pricing__item-price">NT$800 起</span></li>
+          </ul>
+          <a href="#contact" class="pricing__btn">適合快速釐清</a>
         </div>
-        <div class="pricing__item">
-          <span class="pricing__name">紫微斗數分析</span>
-          <span class="pricing__price">NT$1,600 起</span>
+
+        <!-- 結構分析 -->
+        <div class="pricing__tier pricing__tier--mid">
+          <div class="pricing__tier-header">
+            <p class="pricing__tier-label">結構分析</p>
+            <h3 class="pricing__tier-title">深入理解命盤結構</h3>
+            <p class="pricing__tier-for">適合：想深入理解個人特質、人生配置與長期方向的人。</p>
+          </div>
+          <ul class="pricing__tier-list">
+            <li><span class="pricing__item-name">八字命盤分析</span><span class="pricing__item-price">NT$1,200 起</span></li>
+            <li><span class="pricing__item-name">紫微斗數分析</span><span class="pricing__item-price">NT$1,600 起</span></li>
+            <li><span class="pricing__item-name">西洋占星分析</span><span class="pricing__item-price">NT$1,600 起</span></li>
+          </ul>
+          <a href="#contact" class="pricing__btn">適合深入理解</a>
         </div>
-        <div class="pricing__item pricing__item--highlight">
-          <span class="pricing__name">雙系統整合分析</span>
-          <span class="pricing__price">NT$2,000 起</span>
+
+        <!-- 深度整合 -->
+        <div class="pricing__tier pricing__tier--deep">
+          <div class="pricing__tier-header">
+            <p class="pricing__tier-label">深度整合</p>
+            <h3 class="pricing__tier-title">多工具整合全面析</h3>
+            <p class="pricing__tier-for">適合：想從多工具交叉分析，獲得完整書面整理與顧問式建議的人。</p>
+          </div>
+          <ul class="pricing__tier-list">
+            <li><span class="pricing__item-name">雙系統整合分析</span><span class="pricing__item-price">NT$2,000 起</span></li>
+            <li><span class="pricing__item-name">感情深度分析</span><span class="pricing__item-price">NT$1,800 起</span></li>
+            <li><span class="pricing__item-name">整合型報告</span><span class="pricing__item-price">NT$2,500 起</span></li>
+          </ul>
+          <a href="#contact" class="pricing__btn pricing__btn--gold">適合完整規劃</a>
         </div>
-        <div class="pricing__item">
-          <span class="pricing__name">塔羅占卜（單題）</span>
-          <span class="pricing__price">NT$350 起</span>
-        </div>
-        <div class="pricing__item">
-          <span class="pricing__name">生命靈數分析</span>
-          <span class="pricing__price">NT$800 起</span>
-        </div>
-        <div class="pricing__item">
-          <span class="pricing__name">西洋占星分析</span>
-          <span class="pricing__price">NT$1,600 起</span>
-        </div>
-        <div class="pricing__item">
-          <span class="pricing__name">姓名學分析</span>
-          <span class="pricing__price">NT$800 起</span>
-        </div>
-        <div class="pricing__item pricing__item--highlight">
-          <span class="pricing__name">東西方整合人生方向報告</span>
-          <span class="pricing__price">NT$2,500 起</span>
-        </div>
+
       </div>
       <p class="pricing__note">※ 各服務依分析深度、工具數量與交付形式略有差異，詳細說明請透過 LINE 洽詢。</p>
     </div>
@@ -208,40 +282,28 @@
       <div class="why__grid">
         <div class="why__item">
           <div class="why__icon" aria-hidden="true">
-            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="16" cy="16" r="14" stroke="#D4AF37" stroke-width="1.5"/>
-              <path d="M16 8 L16 16 L22 16" stroke="#D4AF37" stroke-width="1.5" stroke-linecap="round"/>
-            </svg>
+            <svg width="28" height="28" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="14" stroke="#D4AF37" stroke-width="1.5"/><path d="M16 8 L16 16 L22 16" stroke="#D4AF37" stroke-width="1.5" stroke-linecap="round"/></svg>
           </div>
           <h3 class="why__item-title">東西方整合觀點</h3>
           <p class="why__item-desc">不侷限於單一系統，八字、紫微、塔羅、占星交叉觀察，從不同角度提供更立體的理解。</p>
         </div>
         <div class="why__item">
           <div class="why__icon" aria-hidden="true">
-            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect x="4" y="6" width="24" height="20" rx="2" stroke="#D4AF37" stroke-width="1.5"/>
-              <path d="M10 13 H22 M10 17 H18" stroke="#D4AF37" stroke-width="1.5" stroke-linecap="round"/>
-            </svg>
+            <svg width="28" height="28" viewBox="0 0 32 32" fill="none"><rect x="4" y="6" width="24" height="20" rx="2" stroke="#D4AF37" stroke-width="1.5"/><path d="M10 13 H22 M10 17 H18" stroke="#D4AF37" stroke-width="1.5" stroke-linecap="round"/></svg>
           </div>
           <h3 class="why__item-title">清楚有結構的書面分析</h3>
           <p class="why__item-desc">所有服務以書面報告交付，讓你可以反覆閱讀、對照生活，不只是當下的口頭感受。</p>
         </div>
         <div class="why__item">
           <div class="why__icon" aria-hidden="true">
-            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M16 4 C10 4 5 9 5 16 C5 23 10 28 16 28 C22 28 27 23 27 16" stroke="#D4AF37" stroke-width="1.5" stroke-linecap="round"/>
-              <path d="M22 4 L27 9 L22 14" stroke="#D4AF37" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
+            <svg width="28" height="28" viewBox="0 0 32 32" fill="none"><path d="M16 4 C10 4 5 9 5 16 C5 23 10 28 16 28 C22 28 27 23 27 16" stroke="#D4AF37" stroke-width="1.5" stroke-linecap="round"/><path d="M22 4 L27 9 L22 14" stroke="#D4AF37" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </div>
           <h3 class="why__item-title">專業但不恐嚇</h3>
           <p class="why__item-desc">不用宿命式語言製造焦慮，分析、提醒、建議三層並進，把選擇權交還給你。</p>
         </div>
         <div class="why__item">
           <div class="why__icon" aria-hidden="true">
-            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M16 6 L8 12 L8 26 L24 26 L24 12 Z" stroke="#D4AF37" stroke-width="1.5" stroke-linejoin="round"/>
-              <path d="M13 26 L13 20 L19 20 L19 26" stroke="#D4AF37" stroke-width="1.5" stroke-linejoin="round"/>
-            </svg>
+            <svg width="28" height="28" viewBox="0 0 32 32" fill="none"><path d="M16 6 L8 12 L8 26 L24 26 L24 12 Z" stroke="#D4AF37" stroke-width="1.5" stroke-linejoin="round"/><path d="M13 26 L13 20 L19 20 L19 26" stroke="#D4AF37" stroke-width="1.5" stroke-linejoin="round"/></svg>
           </div>
           <h3 class="why__item-title">現代顧問式陪伴</h3>
           <p class="why__item-desc">不走傳統算命模式，以顧問式的耐心與條理，陪伴你整理方向，做出更適合自己的選擇。</p>
@@ -261,24 +323,24 @@
         <div class="process__step">
           <div class="process__step-num" aria-hidden="true">01</div>
           <div class="process__step-content">
-            <h3>選擇服務，傳送資料</h3>
-            <p>透過 LINE 官方帳號告知服務項目，並提供出生年月日（國曆）、出生時間（如知曉）與想聚焦的主題。</p>
+            <h3>選擇服務，說明想釐清的主題</h3>
+            <p>你可以先選擇感興趣的服務，或直接告訴我們目前最想整理的方向，例如事業、感情、財運或人際。</p>
           </div>
         </div>
         <div class="process__connector" aria-hidden="true"></div>
         <div class="process__step">
           <div class="process__step-num" aria-hidden="true">02</div>
           <div class="process__step-content">
-            <h3>確認預約，完成付款</h3>
-            <p>收到服務確認後，依指示完成付款。付款完成即正式進入分析作業。</p>
+            <h3>提供資料，完成預約確認</h3>
+            <p>依服務需求提供出生年月日、出生時間與出生地。若不確定出生時間，也可以先說明，我們會協助判斷適合的分析方式。</p>
           </div>
         </div>
         <div class="process__connector" aria-hidden="true"></div>
         <div class="process__step">
           <div class="process__step-num" aria-hidden="true">03</div>
           <div class="process__step-content">
-            <h3>收到書面報告</h3>
-            <p>分析完成後，書面報告將透過 LINE 發送。一般服務約 1–3 個工作天交付。</p>
+            <h3>收到書面報告，慢慢整理與回顧</h3>
+            <p>分析完成後，報告將透過 LINE 或約定方式交付。你可以反覆閱讀，依照報告中的分析、提醒與建議，慢慢對照自己的狀態。</p>
           </div>
         </div>
       </div>
@@ -295,37 +357,75 @@
       <div class="testimonials__grid">
         <blockquote class="testimonial">
           <p class="testimonial__text">「第一次覺得有人在認真幫我整理我自己，不是告訴我命好不好，而是讓我看見自己在哪裡。」</p>
-          <footer class="testimonial__footer">
-            <span class="testimonial__name">28 歲・女性・事業分析</span>
-          </footer>
+          <footer class="testimonial__footer"><span class="testimonial__name">28 歲・女性・事業分析</span></footer>
         </blockquote>
         <blockquote class="testimonial">
           <p class="testimonial__text">「報告很清楚，沒有嚇我，反而讓我知道原來這些年一直重複的模式有個名字。」</p>
-          <footer class="testimonial__footer">
-            <span class="testimonial__name">34 歲・男性・八字命盤分析</span>
-          </footer>
+          <footer class="testimonial__footer"><span class="testimonial__name">34 歲・男性・八字命盤分析</span></footer>
         </blockquote>
         <blockquote class="testimonial">
           <p class="testimonial__text">「本來只是想問感情，後來發現其實問題不在對方，在自己的習慣模式。報告幫我看見了這件事。」</p>
-          <footer class="testimonial__footer">
-            <span class="testimonial__name">31 歲・女性・感情深度分析</span>
-          </footer>
+          <footer class="testimonial__footer"><span class="testimonial__name">31 歲・女性・感情深度分析</span></footer>
         </blockquote>
+      </div>
+      <p class="testimonials__disclaimer">※ 以下回饋為匿名整理，僅呈現服務體驗感受；實際分析內容會依個人狀況而不同。</p>
+    </div>
+  </section>
+
+  <!-- ========== 頁尾信任區 ========== -->
+  <section class="trust" id="trust">
+    <div class="trust__container">
+      <div class="trust__grid">
+        <div class="trust__item">
+          <div class="trust__icon" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#D4AF37" stroke-width="1.5" stroke-linecap="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg>
+          </div>
+          <h4 class="trust__title">隱私保護</h4>
+          <p class="trust__desc">個人資料僅用於服務分析與預約聯繫。</p>
+        </div>
+        <div class="trust__item">
+          <div class="trust__icon" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#D4AF37" stroke-width="1.5" stroke-linecap="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h4 class="trust__title">專業中立</h4>
+          <p class="trust__desc">不恐嚇、不誇大、不替你做重大人生決定。</p>
+        </div>
+        <div class="trust__item">
+          <div class="trust__icon" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#D4AF37" stroke-width="1.5" stroke-linecap="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+          </div>
+          <h4 class="trust__title">服務說明</h4>
+          <p class="trust__desc">每項服務皆有清楚範圍與交付方式。</p>
+        </div>
+        <div class="trust__item">
+          <div class="trust__icon" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#D4AF37" stroke-width="1.5" stroke-linecap="round"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+          </div>
+          <h4 class="trust__title">安心預約</h4>
+          <p class="trust__desc">可先詢問適合服務，再完成預約安排。</p>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- ========== 預約 CTA ========== -->
+  <!-- ========== 最終 CTA ========== -->
   <section class="contact" id="contact">
     <div class="contact__container">
       <div class="contact__inner">
         <p class="section-eyebrow section-eyebrow--light">開始預約</p>
-        <h2 class="contact__title">準備好理解自己了嗎？</h2>
-        <p class="contact__desc">透過 LINE 官方帳號與我們聯繫，告訴我們你想釐清的主題，我們會協助你找到最適合的服務。</p>
-        <a href="https://line.me/R/ti/p/@enlite731" target="_blank" rel="noopener noreferrer" class="btn btn--gold btn--lg">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="margin-right:8px;vertical-align:-3px"><path d="M12 2C6.48 2 2 6.03 2 11c0 3.07 1.67 5.78 4.24 7.5L5.5 22l3.73-1.96C10.1 20.32 11.04 20.5 12 20.5c5.52 0 10-4.03 10-9S17.52 2 12 2z"/></svg>
-          加入 LINE 官方帳號
-        </a>
+        <h2 class="contact__title">想先釐清自己適合哪一種服務嗎？</h2>
+        <p class="contact__desc">
+          不需要一開始就把所有問題想清楚。<br />
+          你可以先告訴我們目前最想理解的主題，<br />
+          我們會依照你的需求，協助你選擇更適合的服務方向。
+        </p>
+        <div class="contact__actions">
+          <a href="https://line.me/R/ti/p/@enlite731" target="_blank" rel="noopener noreferrer" class="btn btn--gold btn--lg">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.48 2 2 6.03 2 11c0 3.07 1.67 5.78 4.24 7.5L5.5 22l3.73-1.96C10.1 20.32 11.04 20.5 12 20.5c5.52 0 10-4.03 10-9S17.52 2 12 2z"/></svg>
+            加入 LINE 詢問
+          </a>
+          <a href="#services" class="btn btn--outline">查看服務項目</a>
+        </div>
         <p class="contact__line-id">LINE ID：@enlite731</p>
       </div>
     </div>
@@ -341,6 +441,7 @@
       </div>
       <div class="footer__links">
         <a href="#services">服務項目</a>
+        <a href="#pricing">服務價格</a>
         <a href="#why">品牌理念</a>
         <a href="#process">預約流程</a>
         <a href="#contact">聯絡我們</a>
@@ -350,31 +451,26 @@
   </footer>
 
   <script>
-    // 漢堡選單
     const hamburger = document.querySelector('.nav__hamburger');
     const mobileMenu = document.getElementById('mobileMenu');
     hamburger.addEventListener('click', () => {
       const isOpen = mobileMenu.classList.toggle('nav__mobile--open');
       hamburger.setAttribute('aria-expanded', isOpen);
     });
-    // 點選手機選單連結後關閉
     document.querySelectorAll('.nav__mobile-link').forEach(link => {
       link.addEventListener('click', () => {
         mobileMenu.classList.remove('nav__mobile--open');
         hamburger.setAttribute('aria-expanded', 'false');
       });
     });
-    // 捲動後導覽列加陰影
     const nav = document.getElementById('nav');
     window.addEventListener('scroll', () => {
       nav.classList.toggle('nav--scrolled', window.scrollY > 40);
     });
-    // 捲動進入動畫
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('in-view'); });
-    }, { threshold: 0.12 });
-    document.querySelectorAll('.gy-service-card, .why__item, .process__step, .testimonial, .pricing__item').forEach(el => observer.observe(el));
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.gy-service-card, .why__item, .process__step, .testimonial, .pricing__tier, .trust__item').forEach(el => observer.observe(el));
   </script>
-
 </body>
 </html>
