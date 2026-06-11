@@ -150,9 +150,10 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   gap: 12px;
 }
 .nav__logo {
-  height: 40px;
-  width: auto;
-  mix-blend-mode: lighten;
+  height: 44px;
+  width: 44px;
+  object-fit: contain;
+  flex-shrink: 0;
 }
 .nav__name {
   font-family: var(--font-serif);
@@ -239,10 +240,12 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   display: flex;
   align-items: center;
   overflow: hidden;
+  background-color: var(--navy);
 }
 .hero__bg {
   position: absolute;
   inset: 0;
+  background-color: var(--navy);
 }
 .hero__bg-img {
   width: 100%;
@@ -765,7 +768,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   text-align: center;
 }
 .footer__brand { display: flex; flex-direction: column; align-items: center; gap: 8px; }
-.footer__logo { height: 36px; width: auto; mix-blend-mode: lighten; opacity: 0.7; }
+.footer__logo { height: 44px; width: 44px; object-fit: contain; opacity: 0.85; }
 .footer__brand-name {
   font-family: var(--font-serif);
   font-size: 0.95rem;
